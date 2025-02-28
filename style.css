@@ -1,0 +1,119 @@
+html, body{
+	overflow-x:hidden; 
+}
+
+body::-webkit-scrollbar {
+	width: 10px;              
+}
+
+body::-webkit-scrollbar-track {
+	background: #201E20;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #2A282A;
+	border-radius: 50px;
+	border: 3px solid #201E20;
+}
+
+* {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: #2A282A;
+  z-index: 10000;
+}
+
+
+.loaded_hiding .preloader {
+  transition: 0.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
+}
+
+.background-one{
+	background: #201E20 !important;
+}
+	
+
+.background-two{
+	background: #2A282A !important;
+}
+
+
+.btn:active{
+	border: 1px solid #201E20 !important;
+}
+
+.color-white{
+	color: #ffffff !important;
+}
+
+.color-footer{
+	color: #6c757d !important;
+}
+
+img{
+	object-fit: cover !important;
+}
+.img-avatar{
+	width: 30vh;
+	height: 30vh;
+	border: 1vh solid #2A282A;
+	border-radius: 100%;
+	background: #CCCCCC;
+}
+
+figure {
+    margin: 0 0 0 0px !important;
+}
+
+.figure-img{
+	width: 1000px !important;
+	height: 350px !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+	background: #2A282A !important;
+}
+
+.navbar-toggler, .navbar-toggler:focus {
+	outline: none !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+
+.img-thumbnail{
+	background-color: #2A282A !important;
+	border: none !important;
+	border-radius: 2vh !important;
+}
+
+.tab-content{
+	border-radius: 2vh;
+	background: #2A282A;
+}
+
+.card-text{
+	font-size: .875em !important;
+	color: #6c757d !important;
+	border: none !important;
+}
+
+.btn_active{
+	border-bottom: 1px solid #ffffff;
+}
