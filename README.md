@@ -7,4 +7,4 @@
 - CSS
 - Bootstrap
 
-*создал Alex_listochek*❤
+*...cоздал Alex_listochek*❤
